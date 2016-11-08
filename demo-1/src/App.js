@@ -11,6 +11,7 @@ var App = React.createClass( {
   changeFeet:function(event) {
     var feet = event.target.value;
     this.setState({value:feet});
+    //when state is changed, rerendered
   },
   render:function() {
     var meters = feetToMeters(this.state.value);
