@@ -13,6 +13,7 @@ var App = React.createClass({
 						<Link className="link" activeClassName='active' to="/"><i className="fa fa-home"></i></Link>
 						<Link className="link" activeClassName='active' to="/page-1">Page 1</Link>
 						<Link className="link" activeClassName='active' to="/page-2">Page 2</Link>
+						<Link className="link" activeClassName='active' to="/page-3">Page 3</Link>
 					</div>
 					<div className="children">
 						{this.props.children}
